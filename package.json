@@ -10,7 +10,7 @@
     "client": "npm start --prefix client",
     "proxy": "http://localhost:5000",
     "serve": "nodemon server.js",
-    "dev": "npm run sever",
+    "dev": "npm run sever"
   },
   "author": "",
   "license": "ISC",
