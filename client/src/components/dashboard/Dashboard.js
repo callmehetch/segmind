@@ -52,13 +52,13 @@ return (
       <div style={{ height: "300vh" }} className="container valign-wrapper">
         <div className="row">
           <div className="col s12">
-            <h4>
-                <div>
+              <div style={{ marginTop: "1rem" }}>
         <div className="inline-block absolute top left mt12 ml12 bg-darken75 color-white z1 py6 px12 round-full txt-s txt-bold">
           <div>{`Longitude: ${lng} Latitude: ${lat} Zoom: ${zoom}`}</div>
         </div>
         <div ref={el => this.mapContainer = el} className="absolute top right left bottom" />
       </div>
+            <h4>
               <b>Hey there,</b> {user.name.split(" ")[0]}
               <p className="flow-text grey-text text-darken-1">
                 You are logged into{" "}

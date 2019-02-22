@@ -1,5 +1,5 @@
 {
-  "name": "mern-auth",
+  "name": "SegMind",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,8 @@
     "client": "npm start --prefix client",
     "proxy": "http://localhost:5000",
     "serve": "nodemon server.js",
-    "dev": "concurrently \"npm run serve\" \"npm run client\""
+    "dev": "npm run sever",
+    "postinstall": "npm run client"
   },
   "author": "",
   "license": "ISC",
