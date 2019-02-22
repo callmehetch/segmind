@@ -12,7 +12,7 @@ app.use(
 );
 app.use(bodyParser.json());
 
-app.use(express.static(__dirname+"/client/build/"));
+app.use(express.static(__dirname+"/client/build"));
 
 // DB Config
 const db = require("./config/keys").mongoURI;
