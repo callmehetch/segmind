@@ -25,9 +25,11 @@
     "npm-windows-upgrade": "^6.0.1",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
-    "validator": "^10.11.0",
-    "node" : "10.14.2",
-    "npm" : "5.0.3"
+    "validator": "^10.11.0"
+  },
+  "engines": {
+    "node": "10.14.2",
+    "npm": "5.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
