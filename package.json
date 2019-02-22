@@ -11,7 +11,6 @@
     "proxy": "http://localhost:5000",
     "serve": "nodemon server.js",
     "dev": "npm run sever",
-    "postinstall": "npm run client-install"
   },
   "author": "",
   "license": "ISC",
